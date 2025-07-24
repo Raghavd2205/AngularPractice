@@ -1,0 +1,5 @@
+                                                Angular Notes
+                                                
+* We use selectors in angular which starts with app like app-header, just because it should not match the inbuilt components of angular. we can use anything instead of app and then component name.
+
+*
