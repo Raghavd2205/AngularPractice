@@ -1,5 +1,8 @@
                                                 Angular Notes
-                                                
+
 * We use selectors in angular which starts with app like app-header, just because it should not match the inbuilt components of angular. we can use anything instead of app and then component name.
 
-*
+* <img [src]="imageUrl" [alt]="imageDesc"> this is the example of property binding 
+
+* we can use get keyword in ts for creating a function and use that function in property binding. ex : ts --> get imageValue(){return `${imagedescd}/asset`}
+               html --> <img [src] = "imageValue">
