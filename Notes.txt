@@ -6,3 +6,5 @@
 
 * we can use get keyword in ts for creating a function and use that function in property binding. ex : ts --> get imageValue(){return `${imagedescd}/asset`}
                html --> <img [src] = "imageValue">
+
+* Angular uses zone.js for change detection machnisam (detect data change and show in ui)
